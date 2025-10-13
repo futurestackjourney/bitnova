@@ -1,0 +1,257 @@
+{
+  "home": {
+    "hero": {
+      "title": "Trade Smarter with BitNova",
+      "description": "Stay ahead in the crypto market with live updates, news, and your personal trading dashboard.",
+      "link": "Explore News",
+      "link2": "Sign Up"
+    },
+    "features": {
+      "title": "Trade smarter. Grow faster.",
+      "description": "BitNova empowers you to make data-driven investment decisions with real-time insights, market analytics, and an intuitive dashboard designed for both beginners and pros.",
+      "cards": [
+        {
+          "icon": "TbDeviceMobileShare",
+          "title": "Start with any amount",
+          "text": "Whether you're investing $5 or $50,000, BitNova helps your money grow intelligently through secure and optimized trades."
+        },
+        {
+          "icon": "IoMdList",
+          "title": "Build your perfect portfolio",
+          "text": "Diversify across cryptocurrencies, stocks, and digital assets — all in one place. BitNova helps you balance risk and maximize returns."
+        },
+        {
+          "icon": "TbChartAreaLine",
+          "title": "Real-time market trading",
+          "text": "Experience lightning-fast trades with live data feeds and instant execution powered by BitNova’s high-speed trading engine."
+        },
+        {
+          "icon": "TbDeviceMobileDollar",
+          "title": "Earn through referrals",
+          "text": "Invite friends and earn rewards when they trade. BitNova lets your network work for you with our transparent referral system."
+        },
+        {
+          "icon": "TbPasswordMobilePhone",
+          "title": "Bank-level security",
+          "text": "Your funds and personal data are protected with military-grade encryption, two-factor authentication, and advanced fraud detection."
+        },
+        {
+          "icon": "TbDeviceMobileMessage",
+          "title": "Track performance easily",
+          "text": "Monitor your profits, asset growth, and trade history with an elegant, easy-to-use analytics dashboard — anytime, anywhere."
+        }
+      ]
+    },
+    "content": {
+      "title": "Now let's build your portfolio",
+      "description": "With typical market returns, you have to start young to secure your future. With Pocket, it’s never too late to build your nest egg",
+      "contentcard": [
+        {
+          "icon": "TbDeviceMobileShare",
+          "title": "Invest any amount",
+          "text": "Whether it’s $1 or $1,000,000, we can put your money to work for you."
+        },
+        {
+          "icon": "IoMdList",
+          "title": "Build a balanced portfolio",
+          "text": "Invest in different industries to find the most opportunities to win huge."
+        },
+        {
+          "icon": "TbChartAreaLine",
+          "title": "Trade in real-time",
+          "text": "Get insider tips on big stock moves and act on them within seconds."
+        },
+        {
+          "icon": "TbDeviceMobileDollar",
+          "title": "Profit from your network",
+          "text": "Invite new insiders to get tips faster and beat even other Pocket users."
+        },
+        {
+          "icon": "TbPasswordMobilePhone",
+          "title": "Encrypted and anonymized",
+          "text": "Cutting-edge security technology that even the NSA doesn’t know about keeps you hidden."
+        },
+        {
+          "icon": "TbDeviceMobileMessage",
+          "title": "Portfolio tracking",
+          "text": "Watch your investments grow exponentially, leaving other investors in the dust."
+        }
+      ]
+    },
+
+    "faq": {
+      "title": "Frequently Asked Questions",
+      "subtitle":" Need Help? We Have Got Answers.",
+      "description":"If you have anything else you want to ask,",
+      "link":"Reach Out to us",
+      "questions": [
+        {
+          "title": "What is BitNova?",
+          "text": "BitNova is a next-generation trading platform that allows you to trade cryptocurrencies, stocks, and digital assets in one secure and powerful dashboard. Whether you’re a beginner or a pro, BitNova gives you the tools to trade smarter."
+        },
+        {
+          "title": "How secure is my money on BitNova?",
+          "text": "Your security is our top priority. BitNova uses bank-level encryption, two-factor authentication, and cold wallet storage for digital assets to ensure your funds and personal data remain completely safe."
+        },
+        {
+          "title": "How can I start trading on BitNova?",
+          "text": "Simply create an account, verify your identity, and deposit funds using your preferred payment method. Once your account is set up, you can start trading instantly with real-time data and AI-driven insights."
+        },
+        {
+          "title": "Does BitNova support cryptocurrency trading?",
+          "text": "Yes. BitNova supports a wide range of popular cryptocurrencies including Bitcoin, Ethereum, Solana, and more — all with real-time market analytics and secure wallet integration."
+        },
+        {
+          "title": "Is BitNova available on mobile devices?",
+          "text": "Absolutely. BitNova is fully optimized for both iOS and Android devices, so you can trade anywhere, anytime through our intuitive mobile app."
+        },
+        {
+          "title": "How do withdrawals work on BitNova?",
+          "text": "Withdrawals are fast and simple. Once your withdrawal request is verified, funds are sent to your linked bank or crypto wallet, typically within 24 hours depending on network conditions."
+        },
+        {
+          "title": "Are there any fees for trading on BitNova?",
+          "text": "BitNova offers low, transparent trading fees with no hidden charges. You can view all fees clearly on the trading dashboard before making any transactions."
+        },
+        {
+          "title": "Can beginners use BitNova?",
+          "text": "Definitely! BitNova is designed for all experience levels. Our guided tutorials, demo mode, and simplified UI make it easy for beginners to learn trading safely while gaining confidence."
+        },
+        {
+          "title": "Is BitNova a regulated platform?",
+          "text": "Yes. BitNova complies with international KYC and AML regulations to ensure transparent, legal, and secure trading for all our users worldwide."
+        },
+        {
+          "title": "How can I contact BitNova support?",
+          "text": "You can reach our 24/7 customer support team directly through live chat in the app or by emailing support@bitnova.io. Our experts are always ready to help you with any questions."
+        }
+      ]
+    },
+
+    "testimonials": {
+      "title": "What our traders say",
+      "cards": [
+        {
+          "icon": "BsStarFill",
+          "title": "A platform that delivers",
+          "comment": "BitNova has completely transformed the way I trade. Real-time data and insights help me make confident decisions every single day.",
+          "name": "Sarah M."
+        },
+        {
+          "icon": "BsStarFill",
+          "title": "My profits doubled",
+          "comment": "I started small just to test it out, and within three months my portfolio had doubled. BitNova’s analytics are a game changer.",
+          "name": "CryptoAli"
+        },
+        {
+          "icon": "BsStarFill",
+          "title": "Trading made simple",
+          "comment": "Even as a beginner, I never felt lost. The interface is so clean, and the tutorials helped me understand trading from day one.",
+          "name": "Hassan R."
+        },
+        {
+          "icon": "BsStarFill",
+          "title": "Reliable and secure",
+          "comment": "BitNova’s security features give me peace of mind. Two-factor authentication and wallet encryption are top-notch.",
+          "name": "Nadia K."
+        },
+        {
+          "icon": "BsStarFill",
+          "title": "Best decision I’ve made",
+          "comment": "I’ve used several trading platforms, but BitNova is by far the most transparent and user-friendly experience I’ve had.",
+          "name": "Adeel S."
+        },
+        {
+          "icon": "BsStarFill",
+          "title": "Perfect for long-term investors",
+          "comment": "I use BitNova to track both crypto and stock investments. It keeps everything organized and easy to understand.",
+          "name": "Imran Q."
+        },
+        {
+          "icon": "BsStarFill",
+          "title": "Fast withdrawals",
+          "comment": "Withdrawing my profits was quick and hassle-free. Funds reached my bank account in less than a day.",
+          "name": "Kiran P."
+        },
+        {
+          "icon": "BsStarFill",
+          "title": "Finally a platform I trust",
+          "comment": "I’ve had bad experiences before, but BitNova’s transparency and security made me confident again in online trading.",
+          "name": "Raza T."
+        },
+        {
+          "icon": "BsStarFill",
+          "title": "Everything I need in one place",
+          "comment": "From live charts to automated insights — BitNova combines everything a modern trader could ask for.",
+          "name": "Fatima L."
+        },
+        {
+          "icon": "BsStarFill",
+          "title": "Customer support is outstanding",
+          "comment": "Whenever I had a question, BitNova’s support team responded quickly and resolved my issue within minutes.",
+          "name": "Haris U."
+        },
+        {
+          "icon": "BsStarFill",
+          "title": "Feels professional and smooth",
+          "comment": "The platform is lightning fast. Placing trades, checking charts, or managing funds all feels effortless.",
+          "name": "Owais A."
+        },
+        {
+          "icon": "BsStarFill",
+          "title": "Built for serious traders",
+          "comment": "BitNova’s analytics and insights are incredibly accurate. It’s like having a personal trading assistant.",
+          "name": "Bilal J."
+        },
+        {
+          "icon": "BsStarFill",
+          "title": "The mobile app is fantastic",
+          "comment": "I trade mostly from my phone and BitNova’s app runs flawlessly. It’s clean, fast, and secure.",
+          "name": "Lina F."
+        },
+        {
+          "icon": "BsStarFill",
+          "title": "Made me confident in trading again",
+          "comment": "I used to overthink every trade, but now with BitNova’s alerts and market signals, I feel in control.",
+          "name": "Waqas D."
+        },
+        {
+          "icon": "BsStarFill",
+          "title": "Accurate data in real-time",
+          "comment": "BitNova’s live market updates are super reliable — no delays, no glitches, just clean data.",
+          "name": "Noman Z."
+        },
+        {
+          "icon": "BsStarFill",
+          "title": "Highly recommended",
+          "comment": "I’ve recommended BitNova to all my friends. It’s intuitive, secure, and actually delivers results.",
+          "name": "Emaan K."
+        },
+        {
+          "icon": "BsStarFill",
+          "title": "Perfect for passive income",
+          "comment": "The referral and reward programs are excellent — earning while trading feels amazing.",
+          "name": "Jibran H."
+        },
+        {
+          "icon": "BsStarFill",
+          "title": "Best ROI tool I’ve used",
+          "comment": "Every trade I make with BitNova feels more informed. My returns are consistent and steady.",
+          "name": "Anaya R."
+        },
+        {
+          "icon": "BsStarFill",
+          "title": "Game changer for my finances",
+          "comment": "BitNova helped me organize my investments and plan smarter. My financial habits have improved completely.",
+          "name": "Sameer I."
+        },
+        {
+          "icon": "BsStarFill",
+          "title": "Worth every cent",
+          "comment": "BitNova has paid for itself many times over. I can’t imagine trading without it anymore.",
+          "name": "Mehak Y."
+        }
+      ]
+    }
+  }
+}

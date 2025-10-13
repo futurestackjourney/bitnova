@@ -1,0 +1,256 @@
+{
+  "home": {
+    "hero": {
+      "title": "Negocie de forma mais inteligente com a BitNova",
+      "description": "Fique à frente no mercado cripto com atualizações ao vivo, notícias e seu painel pessoal de negociação.",
+      "link": "Explorar notícias",
+      "link2": "Cadastre-se"
+    },
+    "features": {
+      "title": "Negocie com mais inteligência. Cresça mais rápido.",
+      "description": "BitNova te dá poder para tomar decisões de investimento baseadas em dados com insights em tempo real, análises de mercado e um painel intuitivo, ideal tanto para iniciantes como para profissionais.",
+      "cards": [
+        {
+          "icon": "TbDeviceMobileShare",
+          "title": "Comece com qualquer valor",
+          "text": "Seja investindo $5 ou $50.000, a BitNova ajuda seu dinheiro a crescer inteligentemente por meio de negociações seguras e otimizadas."
+        },
+        {
+          "icon": "IoMdList",
+          "title": "Construa sua carteira ideal",
+          "text": "Diversifique entre criptomoedas, ações e ativos digitais — tudo em um só lugar. A BitNova te ajuda a equilibrar risco e maximizar retornos."
+        },
+        {
+          "icon": "TbChartAreaLine",
+          "title": "Negociação de mercado em tempo real",
+          "text": "Experimente operações ultrarrápidas com dados ao vivo e execução instantânea impulsionados pelo motor de negociação de alta velocidade da BitNova."
+        },
+        {
+          "icon": "TbDeviceMobileDollar",
+          "title": "Ganhe através de indicações",
+          "text": "Convide amigos e ganhe recompensas quando eles negociarem. A BitNova permite que sua rede trabalhe por você com nosso sistema de indicações transparente."
+        },
+        {
+          "icon": "TbPasswordMobilePhone",
+          "title": "Segurança de nível bancário",
+          "text": "Seus fundos e dados pessoais são protegidos com criptografia de nível militar, autenticação de dois fatores e tecnologia avançada de detecção de fraudes."
+        },
+        {
+          "icon": "TbDeviceMobileMessage",
+          "title": "Acompanhe o desempenho com facilidade",
+          "text": "Monitore seus lucros, crescimento de ativos e histórico de operações com um painel de análises elegante e fácil de usar — a qualquer hora, em qualquer lugar."
+        }
+      ]
+    },
+    "content": {
+      "title": "Agora vamos construir sua carteira",
+      "link":"Explorar mais",
+      "description": "Com retornos típicos do mercado, você precisa começar cedo para garantir seu futuro. Com a Pocket, nunca é tarde demais para construir seu capital.",
+      "contentcard": [
+        {
+          "icon": "TbDeviceMobileShare",
+          "title": "Invista qualquer quantia",
+          "text": "Seja $1 ou $1.000.000, podemos colocar seu dinheiro para trabalhar para você."
+        },
+        {
+          "icon": "IoMdList",
+          "title": "Construa uma carteira equilibrada",
+          "text": "Invista em diferentes indústrias para encontrar o maior número de oportunidades para ganhar alto."
+        },
+        {
+          "icon": "TbChartAreaLine",
+          "title": "Negocie em tempo real",
+          "text": "Receba dicas privilegiadas sobre grandes movimentações de ações e aja dentro de segundos."
+        },
+        {
+          "icon": "TbDeviceMobileDollar",
+          "title": "Lucre com sua rede",
+          "text": "Convide insiders novos para obter dicas mais rápido e superar até outros usuários da Pocket."
+        },
+        {
+          "icon": "TbPasswordMobilePhone",
+          "title": "Criptografado e anonimizado",
+          "text": "Tecnologia de segurança de ponta que nem mesmo a NSA conhece te mantém oculto."
+        },
+        {
+          "icon": "TbDeviceMobileMessage",
+          "title": "Rastreamento de carteira",
+          "text": "Veja seus investimentos crescerem exponencialmente, deixando outros investidores para trás."
+        }
+      ]
+    },
+    "faq": {
+      "title": "Perguntas Frequentes",
+      "subtitle": "Precisa de ajuda? Nós temos respostas.",
+      "description": "Se você tiver algo mais que deseja perguntar,",
+      "link": "Entre em contato conosco",
+      "questions": [
+        {
+          "title": "O que é BitNova?",
+          "text": "BitNova é uma plataforma de negociação da próxima geração que te permite negociar criptomoedas, ações e ativos digitais em um único painel seguro e poderoso. Seja você iniciante ou profissional, a BitNova oferece as ferramentas para negociar com mais inteligência."
+        },
+        {
+          "title": "Quão seguro é meu dinheiro na BitNova?",
+          "text": "Sua segurança é nossa maior prioridade. A BitNova usa criptografia de nível bancário, autenticação de dois fatores e armazenamento frio para ativos digitais para garantir que seus fundos e dados pessoais permaneçam completamente seguros."
+        },
+        {
+          "title": "Como posso começar a negociar na BitNova?",
+          "text": "Basta criar uma conta, verificar sua identidade e depositar fundos utilizando seu método de pagamento preferido. Uma vez configurada, você pode começar a negociar instantaneamente com dados em tempo real e insights baseados em IA."
+        },
+        {
+          "title": "A BitNova suporta negociação de criptomoedas?",
+          "text": "Sim. A BitNova oferece suporte a uma ampla variedade de criptomoedas populares, incluindo Bitcoin, Ethereum, Solana e mais — tudo com análises de mercado em tempo real e integração segura de carteiras."
+        },
+        {
+          "title": "A BitNova está disponível em dispositivos móveis?",
+          "text": "Absolutamente. A BitNova é totalmente otimizada para dispositivos iOS e Android, para que você possa negociar em qualquer lugar e a qualquer momento por meio do nosso aplicativo móvel intuitivo."
+        },
+        {
+          "title": "Como funcionam os saques na BitNova?",
+          "text": "Os saques são rápidos e simples. Assim que seu pedido de saque for verificado, os fundos são enviados para seu banco ou carteira cripto vinculada, normalmente dentro de 24 horas, dependendo das condições da rede."
+        },
+        {
+          "title": "Existem taxas para negociar na BitNova?",
+          "text": "A BitNova oferece taxas de negociação baixas e transparentes, sem cobranças ocultas. Você pode ver todas as taxas claramente no painel de negociação antes de realizar qualquer transação."
+        },
+        {
+          "title": "Iniciantes podem usar a BitNova?",
+          "text": "Definitivamente! A BitNova é projetada para todos os níveis de experiência. Nossas orientações guiadas, modo demo e interface simplificada facilitam para iniciantes aprenderem a negociar com segurança enquanto ganham confiança."
+        },
+        {
+          "title": "A BitNova é uma plataforma regulamentada?",
+          "text": "Sim. A BitNova cumpre regulamentos internacionais de KYC e AML para garantir negociações transparentes, legais e seguras para todos os nossos usuários em todo o mundo."
+        },
+        {
+          "title": "Como posso entrar em contato com o suporte da BitNova?",
+          "text": "Você pode entrar em contato com nossa equipe de suporte 24/7 diretamente através do chat ao vivo no aplicativo ou enviando um e-mail para support@bitnova.io. Nossos especialistas estão sempre prontos para ajudar com qualquer dúvida."
+        }
+      ]
+    },
+    "testimonials": {
+      "title": "O que nossos traders dizem",
+      "cards": [
+        {
+          "icon": "BsStarFill",
+          "title": "Uma plataforma que entrega",
+          "comment": "A BitNova transformou completamente a maneira como eu negociei. Dados em tempo real e insights me ajudam a tomar decisões confiantes todos os dias.",
+          "name": "Sarah M."
+        },
+        {
+          "icon": "BsStarFill",
+          "title": "Meus lucros dobraram",
+          "comment": "Comecei com pouco só para testar e, em três meses, minha carteira dobrou. As análises da BitNova são decisivas.",
+          "name": "CryptoAli"
+        },
+        {
+          "icon": "BsStarFill",
+          "title": "Negociação ficou simples",
+          "comment": "Mesmo sendo iniciante, nunca me senti perdido. A interface é limpa e os tutoriais me ajudaram desde o primeiro dia.",
+          "name": "Hassan R."
+        },
+        {
+          "icon": "BsStarFill",
+          "title": "Confiável e segura",
+          "comment": "Os recursos de segurança da BitNova me dão tranquilidade. Autenticação de dois fatores e criptografia de carteira são excelentes.",
+          "name": "Nadia K."
+        },
+        {
+          "icon": "BsStarFill",
+          "title": "Melhor decisão que tomei",
+          "comment": "Usei várias plataformas de negociação, mas a BitNova foi de longe a experiência mais transparente e fácil de usar.",
+          "name": "Adeel S."
+        },
+        {
+          "icon": "BsStarFill",
+          "title": "Perfeita para investidores de longo prazo",
+          "comment": "Uso a BitNova para acompanhar criptos e ações. Ela organiza tudo e torna fácil de entender.",
+          "name": "Imran Q."
+        },
+        {
+          "icon": "BsStarFill",
+          "title": "Saques rápidos",
+          "comment": "Sacar meus lucros foi rápido e sem complicações. Os fundos chegaram na minha conta bancária em menos de um dia.",
+          "name": "Kiran P."
+        },
+        {
+          "icon": "BsStarFill",
+          "title": "Finalmente uma plataforma em que confio",
+          "comment": "Tive experiências ruins antes, mas a transparência e segurança da BitNova me deram confiança novamente no trading online.",
+          "name": "Raza T."
+        },
+        {
+          "icon": "BsStarFill",
+          "title": "Tudo o que preciso em um só lugar",
+          "comment": "De gráficos ao vivo a insights automáticos — a BitNova combina tudo que um trader moderno precisa.",
+          "name": "Fatima L."
+        },
+        {
+          "icon": "BsStarFill",
+          "title": "Suporte ao cliente excelente",
+          "comment": "Sempre que tive uma dúvida, a equipe de suporte da BitNova respondeu rapidamente e resolveu meu problema em minutos.",
+          "name": "Haris U."
+        },
+        {
+          "icon": "BsStarFill",
+          "title": "Profissional e ágil",
+          "comment": "A plataforma é extremamente rápida. Fazer operações, checar gráficos ou gerenciar fundos é algo natural.",
+          "name": "Owais A."
+        },
+        {
+          "icon": "BsStarFill",
+          "title": "Projetada para traders sérios",
+          "comment": "As análises e insights da BitNova são incrivelmente precisos. É como ter um assistente pessoal de negociação.",
+          "name": "Bilal J."
+        },
+        {
+          "icon": "BsStarFill",
+          "title": "O app móvel é fantástico",
+          "comment": "Negocio principalmente pelo celular e o app da BitNova funciona perfeitamente. É limpo, rápido e seguro.",
+          "name": "Lina F."
+        },
+        {
+          "icon": "BsStarFill",
+          "title": "Me fez confiar no trading de novo",
+          "comment": "Antes pensava muito em cada operação, mas agora com alertas e sinais da BitNova me sinto no controle.",
+          "name": "Waqas D."
+        },
+        {
+          "icon": "BsStarFill",
+          "title": "Dados precisos em tempo real",
+          "comment": "As atualizações de mercado ao vivo da BitNova são muito confiáveis — sem atrasos, sem falhas, só dados limpos.",
+          "name": "Noman Z."
+        },
+        {
+          "icon": "BsStarFill",
+          "title": "Altamente recomendado",
+          "comment": "Recomendei a BitNova para todos os meus amigos. É intuitiva, segura e realmente entrega resultados.",
+          "name": "Emaan K."
+        },
+        {
+          "icon": "BsStarFill",
+          "title": "Perfeita para renda passiva",
+          "comment": "Os programas de indicação e recompensas são excelentes — ganhar enquanto negocia é incrível.",
+          "name": "Jibran H."
+        },
+        {
+          "icon": "BsStarFill",
+          "title": "Melhor ferramenta de ROI que usei",
+          "comment": "Cada operação que faço com a BitNova é mais informada. Meus retornos são consistentes e constantes.",
+          "name": "Anaya R."
+        },
+        {
+          "icon": "BsStarFill",
+          "title": "Transformadora para minhas finanças",
+          "comment": "A BitNova me ajudou a organizar meus investimentos e planejar com inteligência. Meus hábitos financeiros melhoraram completamente.",
+          "name": "Sameer I."
+        },
+        {
+          "icon": "BsStarFill",
+          "title": "Vale cada centavo",
+          "comment": "A BitNova pagou seu valor muitas vezes. Não consigo imaginar negociar sem ela agora.",
+          "name": "Mehak Y."
+        }
+      ]
+    }
+  }
+}

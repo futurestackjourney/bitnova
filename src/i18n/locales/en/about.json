@@ -1,0 +1,38 @@
+{
+  "about": {
+    "hero": {
+      "title": "About BitNova",
+      "description": "BitNova is your trusted platform for seamless and secure trading. Built with cutting-edge technology, we empower users to navigate the financial markets with confidence."
+    },
+    "mission": {
+      "title": "Our Mission",
+      "description": "To simplify trading for everyone through transparency, technology, and education — helping traders of all levels access powerful tools with ease."
+    },
+    "team": {
+      "title": "Meet Our Team",
+      "members": [
+         {
+        "name": "Ghulam Mustafa",
+        "role": "Frontend Developer",
+        "bio": "As BitNova’s frontend developer, Ghulam ensures the platform delivers a fast, modern, and engaging experience through his expertise in React and interface design."
+      },
+        {
+          "name": "Ghulam Mustafa",
+          "role": "Co-Founder & CEO",
+          "bio": "Ghulam Mustafa is the visionary developer behind BitNova’s core platform. Blending fintech passion with modern technology, he leads the product’s design and development."
+        },
+        {
+          "name": "Hadi Memon",
+          "role": "Co-Founder & Trading Strategist",
+          "bio": "Hadi Memon is the originator of BitNova’s concept. With deep knowledge of spot and futures trading, he guided the foundation and direction of BitNova."
+        }
+      ]
+    },
+    "contact": {
+      "title": "Get In Touch",
+      "description": "Have a question or want to collaborate with us? Reach out anytime — we’d love to hear from you!",
+      "cta": "Contact Us",
+      "link": "/contact"
+    }
+  }
+}

@@ -1,0 +1,256 @@
+{
+  "home": {
+    "hero": {
+      "title": "与 BitNova 一起更聪明地交易",
+      "description": "通过实时更新、新闻和您的个人交易仪表板，在加密市场中保持领先。",
+      "link": "探索新闻",
+      "link2": "注册"
+    },
+    "features": {
+      "title": "更聪明地交易，更快速地成长。",
+      "description": "BitNova 通过实时洞察、市场分析和直观的仪表板，帮助您基于数据做出投资决策，无论您是初学者还是专业人士。",
+      "cards": [
+        {
+          "icon": "TbDeviceMobileShare",
+          "title": "从任意金额开始",
+          "text": "无论您投资的是 5 美元还是 50,000 美元，BitNova 都能通过安全且优化的交易帮助您的资金智能增长。"
+        },
+        {
+          "icon": "IoMdList",
+          "title": "打造完美投资组合",
+          "text": "在加密货币、股票和数字资产之间多元化——一站式管理。BitNova 帮助您平衡风险并最大化收益。"
+        },
+        {
+          "icon": "TbChartAreaLine",
+          "title": "实时市场交易",
+          "text": "体验由 BitNova 高速交易引擎驱动的闪电级交易，享受实时数据传输与即时执行。"
+        },
+        {
+          "icon": "TbDeviceMobileDollar",
+          "title": "通过推荐赚取收益",
+          "text": "邀请朋友交易并获得奖励。BitNova 通过透明的推荐系统让您的人脉为您工作。"
+        },
+        {
+          "icon": "TbPasswordMobilePhone",
+          "title": "银行级安全保障",
+          "text": "您的资金和个人数据由军用级加密、双重身份验证和高级防欺诈技术保护。"
+        },
+        {
+          "icon": "TbDeviceMobileMessage",
+          "title": "轻松跟踪表现",
+          "text": "通过优雅易用的分析仪表板随时随地监控您的利润、资产增长和交易历史。"
+        }
+      ]
+    },
+    "content": {
+      "title": "现在，让我们构建您的投资组合",
+      "link": "探索更多",
+      "description": "通常市场回报需要早起步才能确保未来。有了 Pocket，构建您的储蓄永远不算晚。",
+      "contentcard": [
+        {
+          "icon": "TbDeviceMobileShare",
+          "title": "投资任意金额",
+          "text": "无论是 1 美元还是 1,000,000 美元，我们都能让您的资金为您工作。"
+        },
+        {
+          "icon": "IoMdList",
+          "title": "建立平衡投资组合",
+          "text": "投资不同的行业，以寻找最大获利机会。"
+        },
+        {
+          "icon": "TbChartAreaLine",
+          "title": "实时交易",
+          "text": "获取关于大型股票变动的内幕提示，并在几秒内采取行动。"
+        },
+        {
+          "icon": "TbDeviceMobileDollar",
+          "title": "从社交网络中获利",
+          "text": "邀请新的投资者以更快获得提示，超越其他 Pocket 用户。"
+        },
+        {
+          "icon": "TbPasswordMobilePhone",
+          "title": "加密与匿名",
+          "text": "采用连美国国家安全局都不了解的尖端安全技术，确保您的隐私安全。"
+        },
+        {
+          "icon": "TbDeviceMobileMessage",
+          "title": "投资组合跟踪",
+          "text": "观察您的投资指数级增长，让其他投资者望尘莫及。"
+        }
+      ]
+    },
+    "faq": {
+      "title": "常见问题",
+      "subtitle": "需要帮助？我们有答案。",
+      "description": "如果您还有其他问题，",
+      "link": "联系我们",
+      "questions": [
+        {
+          "title": "什么是 BitNova？",
+          "text": "BitNova 是一个新一代交易平台，让您在一个安全且强大的仪表板上交易加密货币、股票和数字资产。无论您是新手还是专家，BitNova 都为您提供更智能的交易工具。"
+        },
+        {
+          "title": "我在 BitNova 上的资金安全吗？",
+          "text": "您的安全是我们的首要任务。BitNova 采用银行级加密、双重身份验证以及冷钱包存储，确保您的资金和个人数据完全安全。"
+        },
+        {
+          "title": "如何开始在 BitNova 上交易？",
+          "text": "只需创建账户，验证身份，并通过您喜欢的支付方式充值。一旦设置完成，您即可通过实时数据和 AI 驱动的洞察立即开始交易。"
+        },
+        {
+          "title": "BitNova 是否支持加密货币交易？",
+          "text": "是的。BitNova 支持包括比特币、以太坊、Solana 等在内的多种主流加密货币，提供实时市场分析和安全钱包集成。"
+        },
+        {
+          "title": "BitNova 是否支持移动设备？",
+          "text": "当然。BitNova 完全优化适配 iOS 和 Android 设备，让您随时随地通过直观的移动应用进行交易。"
+        },
+        {
+          "title": "BitNova 的提现如何操作？",
+          "text": "提现快捷且简单。一旦您的提现请求通过验证，资金将在 24 小时内（取决于网络状况）转入您绑定的银行或加密钱包。"
+        },
+        {
+          "title": "在 BitNova 上交易有手续费吗？",
+          "text": "BitNova 提供低透明度的交易费用，无隐藏收费。您可在交易仪表板上清晰查看所有费用信息。"
+        },
+        {
+          "title": "新手可以使用 BitNova 吗？",
+          "text": "当然！BitNova 为各个经验水平的用户设计。我们的引导式教程、演示模式和简化界面让初学者能安全学习并获得信心。"
+        },
+        {
+          "title": "BitNova 是受监管的平台吗？",
+          "text": "是的。BitNova 遵守国际 KYC 和 AML 法规，确保所有用户的交易透明、合法且安全。"
+        },
+        {
+          "title": "如何联系 BitNova 客服？",
+          "text": "您可以通过应用内的实时聊天或发送邮件至 support@bitnova.io 联系我们的 24/7 客服团队。我们的专家随时准备为您提供帮助。"
+        }
+      ]
+    },
+    "testimonials": {
+      "title": "交易者怎么说",
+      "cards": [
+        {
+          "icon": "BsStarFill",
+          "title": "一个真正有效的平台",
+          "comment": "BitNova 完全改变了我的交易方式。实时数据和洞察帮助我每天都能自信地做出决策。",
+          "name": "Sarah M."
+        },
+        {
+          "icon": "BsStarFill",
+          "title": "我的利润翻倍了",
+          "comment": "我起初只是小额试用，三个月内我的投资组合翻了一番。BitNova 的分析功能真是革命性的。",
+          "name": "CryptoAli"
+        },
+        {
+          "icon": "BsStarFill",
+          "title": "交易变得简单",
+          "comment": "即使作为初学者，我也从未感到迷茫。界面非常简洁，教程从第一天就帮我理解交易。",
+          "name": "Hassan R."
+        },
+        {
+          "icon": "BsStarFill",
+          "title": "可靠又安全",
+          "comment": "BitNova 的安全功能让我放心。双重验证和钱包加密都非常出色。",
+          "name": "Nadia K."
+        },
+        {
+          "icon": "BsStarFill",
+          "title": "我做过的最佳决定",
+          "comment": "我用过多个交易平台，但 BitNova 是最透明且用户体验最佳的一个。",
+          "name": "Adeel S."
+        },
+        {
+          "icon": "BsStarFill",
+          "title": "完美适合长期投资者",
+          "comment": "我用 BitNova 跟踪加密货币和股票投资。它让一切变得井井有条，易于理解。",
+          "name": "Imran Q."
+        },
+        {
+          "icon": "BsStarFill",
+          "title": "提现速度快",
+          "comment": "提现过程快捷无忧，资金不到一天就到账了。",
+          "name": "Kiran P."
+        },
+        {
+          "icon": "BsStarFill",
+          "title": "终于有了我信任的平台",
+          "comment": "之前有过糟糕的经历，但 BitNova 的透明度和安全性让我重新建立了信心。",
+          "name": "Raza T."
+        },
+        {
+          "icon": "BsStarFill",
+          "title": "一站式交易体验",
+          "comment": "从实时图表到自动分析——BitNova 汇集了现代交易者所需的一切。",
+          "name": "Fatima L."
+        },
+        {
+          "icon": "BsStarFill",
+          "title": "客服非常出色",
+          "comment": "每次我有问题时，BitNova 的支持团队都能迅速响应并在几分钟内解决问题。",
+          "name": "Haris U."
+        },
+        {
+          "icon": "BsStarFill",
+          "title": "专业又流畅",
+          "comment": "平台速度极快。下单、查看图表或管理资金都非常顺畅。",
+          "name": "Owais A."
+        },
+        {
+          "icon": "BsStarFill",
+          "title": "为专业交易者打造",
+          "comment": "BitNova 的分析与洞察极其精准，就像拥有一个私人交易助理。",
+          "name": "Bilal J."
+        },
+        {
+          "icon": "BsStarFill",
+          "title": "移动应用非常棒",
+          "comment": "我主要用手机交易，BitNova 的应用流畅、安全且简洁。",
+          "name": "Lina F."
+        },
+        {
+          "icon": "BsStarFill",
+          "title": "让我重拾交易信心",
+          "comment": "我以前总是过度思考每笔交易，但现在有了 BitNova 的提醒和信号，我完全掌控局面。",
+          "name": "Waqas D."
+        },
+        {
+          "icon": "BsStarFill",
+          "title": "实时精准数据",
+          "comment": "BitNova 的市场更新非常可靠——无延迟、无错误，只提供清晰数据。",
+          "name": "Noman Z."
+        },
+        {
+          "icon": "BsStarFill",
+          "title": "强烈推荐",
+          "comment": "我推荐所有朋友使用 BitNova。它直观、安全，而且确实带来成果。",
+          "name": "Emaan K."
+        },
+        {
+          "icon": "BsStarFill",
+          "title": "完美的被动收入平台",
+          "comment": "推荐和奖励计划非常出色——一边交易一边赚钱真棒。",
+          "name": "Jibran H."
+        },
+        {
+          "icon": "BsStarFill",
+          "title": "最好的投资回报工具",
+          "comment": "使用 BitNova 的每笔交易都更有信息支持。我的回报稳定而持续。",
+          "name": "Anaya R."
+        },
+        {
+          "icon": "BsStarFill",
+          "title": "改变了我的财务状况",
+          "comment": "BitNova 帮助我整理投资并更聪明地规划。我的理财习惯彻底改善。",
+          "name": "Sameer I."
+        },
+        {
+          "icon": "BsStarFill",
+          "title": "物超所值",
+          "comment": "BitNova 已经多次帮我赚回成本。我现在无法想象不用它交易。",
+          "name": "Mehak Y."
+        }
+      ]
+    }
+  }
+}
