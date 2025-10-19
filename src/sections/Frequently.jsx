@@ -7,7 +7,7 @@ import { useEffect } from "react";
 
 const containerVariants = {
   hidden: {},
-  visible: {
+  visible: { opacity: 1, x: 0,
     transition: {
       staggerChildren: 0.2,
     },
