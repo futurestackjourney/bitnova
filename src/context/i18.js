@@ -1,6 +1,13 @@
 import i18n from "i18next";
 import { initReactI18next } from "react-i18next";
 
+//  Import all language JSON files for Navbar
+import enNavbar from "../i18n/locales/en/navbar.json";
+import arNavbar from "../i18n/locales/ar/navbar.json";
+import esNavbar from "../i18n/locales/es/navbar.json";
+import ptNavbar from "../i18n/locales/pt/navbar.json";
+import zhNavbar from "../i18n/locales/zh/navbar.json";
+
 //  Import all language JSON files for HOME
 import enHome from "../i18n/locales/en/home.json";
 import arHome from "../i18n/locales/ar/home.json";
@@ -26,30 +33,35 @@ i18n.use(initReactI18next).init({
   resources: {
     en: {
       translation: {
+        navbar: enNavbar.navbar,
         home: enHome.home,
         about: enAbout.about,
       },
     },
     ar: {
       translation: {
+        navbar: arNavbar.navbar,
         home: arHome.home,
         about: arAbout.about,
       },
     },
     es: {
       translation: {
+        navbar: esNavbar.navbar,
         home: esHome.home,
         about: esAbout.about,
       },
     },
     pt: {
       translation: {
+        navbar: ptNavbar.navbar,
         home: ptHome.home,
         about: ptAbout.about,
       },
     },
     zh: {
       translation: {
+        navbar: zhNavbar.navbar,
         home: zhHome.home,
         // about: ptAbout.about,
       },

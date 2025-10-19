@@ -1,0 +1,37 @@
+{
+  "navbar": {
+    "news": "新闻",
+    "about": "关于我们",
+    "market": "市场",
+
+    "trading": {
+      "trade": "交易",
+      "spot": "现货交易",
+      "spotpara": "以当前市场价格即时买卖加密货币。",
+      "features": "合约交易",
+      "featurespara": "使用杠杆交易合约，并对价格走势进行投机。"
+    },
+
+    "more": {
+      "more": "更多",
+      "testimonials": "用户评价",
+      "testimonialspara": "听听我们的用户对在本平台交易的评价。",
+      "faqs": "常见问题",
+      "faqspara": "快速找到有关交易和账户的常见问题答案。",
+      "support": "帮助与支持",
+      "supportpara": "联系支持团队或浏览帮助中心。",
+      "program": "邀请奖励计划",
+      "programpara": "邀请朋友一起赚取交易奖励。"
+    },
+
+    "depositbtn": "充值",
+    "loginbtn": "登录",
+
+    "profile": {
+      "dashboard": "控制面板",
+      "Portfolio": "投资组合",
+      "settings": "设置",
+      "logout": "退出登录"
+    }
+  }
+}

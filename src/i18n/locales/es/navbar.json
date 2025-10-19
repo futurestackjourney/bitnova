@@ -1,0 +1,37 @@
+{
+  "navbar": {
+    "news": "Noticias",
+    "about": "Acerca de",
+    "market": "Mercado",
+
+    "trading": {
+      "trade": "Comerciar",
+      "spot": "Comercio Spot",
+      "spotpara": "Compra y vende criptomonedas al instante a los precios actuales del mercado.",
+      "features": "Comercio de Futuros",
+      "featurespara": "Opera contratos con apalancamiento y especula sobre los movimientos de precios."
+    },
+
+    "more": {
+      "more": "Más",
+      "testimonials": "Testimonios",
+      "testimonialspara": "Escucha lo que nuestros usuarios dicen sobre operar en nuestra plataforma.",
+      "faqs": "Preguntas Frecuentes",
+      "faqspara": "Encuentra respuestas rápidas a las preguntas comunes sobre trading y cuentas.",
+      "support": "Ayuda y Soporte",
+      "supportpara": "Contacta a nuestro equipo de soporte o visita el centro de ayuda.",
+      "program": "Programa de Referidos",
+      "programpara": "Invita a tus amigos y ganen recompensas de trading juntos."
+    },
+
+    "depositbtn": "Depositar",
+    "loginbtn": "Iniciar Sesión",
+
+    "profile": {
+      "dashboard": "Panel de Control",
+      "Portfolio": "Portafolio",
+      "settings": "Configuración",
+      "logout": "Cerrar Sesión"
+    }
+  }
+}

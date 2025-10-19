@@ -1,0 +1,37 @@
+{
+  "navbar": {
+    "news": "News",
+    "about": "About",
+    "market": "Market",
+
+    "trading": {
+      "trade": "Trade",
+      "spot": "Spot Trade",
+      "spotpara": "Buy and sell crypto instantly at current market prices.",
+      "features": "Features Trade",
+      "featurespara": "Trade contracts with leverage and speculate on price movements."
+    },
+
+    "more": {
+      "more": "More",
+      "testimonials": "Testimonials",
+      "testimonialspara": "Hear what our users say about trading on our platform",
+      "faqs": "FAQs",
+      "faqspara": "Find quick answers to common trading and account questions.",
+      "support": "Help & Support",
+      "supportpara": "Contact our support team or browse the help center.",
+      "program": "Referral Program",
+      "programpara": "Invite friends and earn trading rewards together."
+    },
+
+    "depositbtn": "Deposit",
+    "loginbtn": "Login",
+
+    "profile": {
+      "dashboard": "Dashboard",
+      "Portfolio": "Portfolio",
+      "settings": "Settings",
+      "logout": "Logout"
+    }
+  }
+}

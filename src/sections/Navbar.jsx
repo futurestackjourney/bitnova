@@ -13,6 +13,9 @@ import { useTheme } from "../context/ThemeContext";
 import DarkModeToggle from "../components/ui/DarkModeToggle";
 import LanguageToggle from "../components/ui/LanguageToggle";
 
+import i18n from "../context/i18";
+import { useTranslation } from "react-i18next";
+
 const Navbar = () => {
   const location = useLocation();
   const [showNavbar, setShowNavbar] = useState(true);
@@ -22,6 +25,12 @@ const Navbar = () => {
   const [profileOpen, setProfileOpen] = useState(false);
   const { theme, toggleTheme } = useTheme();
   const [depositModalOpen, setDepositModalOpen] = useState(false);
+
+  const { t, i18n } = useTranslation();
+
+  useEffect(() => {
+    i18n.changeLanguage(navigator.language);
+  }, []);
 
   const { user } = useAuth();
   const navigate = useNavigate();
@@ -100,24 +109,24 @@ const Navbar = () => {
                 <ul className="hidden md:flex space-x-6 text-[16px]">
                   <li>
                     <Link to="/news" className={isActive("/news")}>
-                      Latest news
+                      {t("navbar.news")}
                     </Link>
                   </li>
                   <li>
                     <Link to="/about" className={isActive("/about")}>
-                      About
+                      {t("navbar.about")}
                     </Link>
                   </li>
                   <li>
                     <Link to="/markets" className={isActive("/markets")}>
-                      Markets
+                      {t("navbar.market")}
                     </Link>
                   </li>
 
                   {/* Trading dropdown */}
                   <li className="relative group">
                     <button className="flex items-center space-x-1 group-hover:text-green-300">
-                      <span>Trade</span>
+                      <span>{t("navbar.trading.trade")}</span>
                       <FaChevronDown
                         size={12}
                         className="group-hover:hidden block transition-all"
@@ -137,20 +146,18 @@ const Navbar = () => {
                         to="/spot"
                         className="block px-4 py-2 hover:text-green-300"
                       >
-                        Spot Trade
+                        {t("navbar.trading.spot")}
                         <p className="text-sm text-gray-400  ">
-                          Buy and sell crypto instantly at current market
-                          prices.
+                         {t("navbar.trading.spotpara")}
                         </p>
                       </Link>
                       <Link
                         to="/futures"
                         className="block px-4 py-2 hover:text-green-300"
                       >
-                        Futures Trade
+                        {t("navbar.trading.features")}
                         <p className="text-sm text-gray-400 max-w-4xl">
-                          Trade contracts with leverage and speculate on price
-                          movements.
+                          {t("navbar.trading.featurespara")}
                         </p>
                       </Link>
                     </div>
@@ -159,7 +166,7 @@ const Navbar = () => {
                   {/* More Dropdown on Left */}
                   <li className="relative group ">
                     <button className="flex items-center space-x-1 group-hover:text-green-300">
-                      <span>More</span>
+                      <span>{t("navbar.more.more")}</span>
                       <FaChevronDown
                         size={12}
                         className="group-hover:hidden block transition-all"
@@ -179,9 +186,9 @@ const Navbar = () => {
                         to="/testimonials"
                         className="block px-4 py-2 hover:text-green-300"
                       >
-                        Testimonials
+                        {t("navbar.more.testimonials")}
                         <p className="text-sm w-full text-gray-400">
-                          Hear what our users say about trading on our platform.
+                          {t("navbar.more.testimonialspara")}
                         </p>
                       </Link>
 
@@ -189,10 +196,9 @@ const Navbar = () => {
                         to="/faqs"
                         className="block px-4 py-2 hover:text-green-300"
                       >
-                        FAQs
+                       {t("navbar.more.faqs")}
                         <p className="text-sm text-gray-400 max-w-4xl">
-                          Find quick answers to common trading and account
-                          questions.
+                          {t("navbar.more.faqspara")}
                         </p>
                       </Link>
 
@@ -200,9 +206,9 @@ const Navbar = () => {
                         to="/support"
                         className="block px-4 py-2 hover:text-green-300"
                       >
-                        Help & Support
+                        {t("navbar.more.support")}
                         <p className="text-sm text-gray-400 max-w-4xl">
-                          Contact our support team or browse the help center.
+                          {t("navbar.more.supportpara")}
                         </p>
                       </Link>
 
@@ -210,9 +216,9 @@ const Navbar = () => {
                         to="/referral"
                         className="block px-4 py-2 hover:text-green-300"
                       >
-                        Referral Program
+                       {t("navbar.more.program")}
                         <p className="text-sm text-gray-400 max-w-4xl">
-                          Invite friends and earn trading rewards together.
+                          {t("navbar.more.programpara")}
                         </p>
                       </Link>
                     </div>
@@ -222,7 +228,6 @@ const Navbar = () => {
 
               {/* RIGHT SIDE */}
               <div className="hidden md:flex items-center space-x-4 text-sm">
-
                 {/* Language Button */}
                 <LanguageToggle />
 
@@ -232,9 +237,9 @@ const Navbar = () => {
                 {/* Deposit Button */}
                 <button
                   onClick={handleDepositClick}
-                  className="px-3 py-1 rounded bg-green-500 text-black hover:bg-green-600"
+                  className="px-3 py-1.5 rounded bg-green-500 text-black hover:bg-green-600"
                 >
-                  Deposit
+                 {t("navbar.depositbtn")}
                 </button>
                 {user ? (
                   <div className="relative group">
@@ -244,30 +249,30 @@ const Navbar = () => {
                     <div className="absolute left-0 right-0 h-[25px]"></div>
 
                     {/* Dropdown menu (opens on hover) */}
-                    <div className="absolute -right-8 mt-[16px] bg-white dark:bg-[#1c1c1c] rounded-lg p-2 shadow-lg hidden group-hover:block">
+                    <div className="absolute -right-5 mt-[16px] bg-white dark:bg-[#1c1c1c] rounded-lg p-2 shadow-lg hidden group-hover:block min-w-[180px]">
                       <Link
                         to="/dashboard"
                         className="block px-4 py-2 hover:text-green-300"
                       >
-                        Dashboard
+                         {t("navbar.profile.dashboard")}
                       </Link>
                       <Link
                         to="/portfolio"
                         className="block px-4 py-2 hover:text-green-300"
                       >
-                        Portfolio
+                       {t("navbar.profile.Portfolio")}
                       </Link>
                       <Link
                         to="/create"
                         className="block px-4 py-2 hover:text-green-300"
                       >
-                        Create
+                        {t("navbar.profile.settings")}
                       </Link>
                       <button
                         onClick={handleLogout}
                         className="w-full text-left px-4 py-2 hover:text-green-300"
                       >
-                        Logout
+                       {t("navbar.profile.logout")}
                       </button>
                     </div>
                   </div>
@@ -275,9 +280,9 @@ const Navbar = () => {
                   // If NOT logged in → Login button
                   <Link
                     to="/login"
-                    className="px-3 py-1  rounded bg-green-500 text-black hover:bg-green-600"
+                    className="px-3 py-1.5  rounded bg-green-500 text-black hover:bg-green-600"
                   >
-                    Login
+                    {t("navbar.loginbtn")}
                   </Link>
                 )}
               </div>
@@ -329,35 +334,37 @@ const Navbar = () => {
                 >
                   Profile <FaChevronDown size={12} className="ml-1" />
                 </button>
-                { user ? moreOpen &&(
-                  <>
-                    <li>
-                      <Link to="/dashboard" onClick={closeMenu}>
-                        Dashboard
-                      </Link>
-                    </li>
-                    <li>
-                      <Link to="/portfolio" onClick={closeMenu}>
-                        Portfolio
-                      </Link>
-                    </li>
-                    <li>
-                      <Link to="/create" onClick={closeMenu}>
-                        Create
-                      </Link>
-                    </li>
-                    <li>
-                      <button
-                        onClick={() => {
-                          handleLogout();
-                          closeMenu();
-                        }}
-                        className="bg-green-400 px-3 py-1 rounded text-black"
-                      >
-                        Logout
-                      </button>
-                    </li>
-                  </>
+                {user ? (
+                  moreOpen && (
+                    <>
+                      <li>
+                        <Link to="/dashboard" onClick={closeMenu}>
+                          Dashboard
+                        </Link>
+                      </li>
+                      <li>
+                        <Link to="/portfolio" onClick={closeMenu}>
+                          Portfolio
+                        </Link>
+                      </li>
+                      <li>
+                        <Link to="/create" onClick={closeMenu}>
+                          Create
+                        </Link>
+                      </li>
+                      <li>
+                        <button
+                          onClick={() => {
+                            handleLogout();
+                            closeMenu();
+                          }}
+                          className="bg-green-400 px-3 py-1 rounded text-black"
+                        >
+                          Logout
+                        </button>
+                      </li>
+                    </>
+                  )
                 ) : (
                   <li>
                     <Link
@@ -371,8 +378,8 @@ const Navbar = () => {
                 )}
 
                 <li>
-                   {/* Language Button */}
-                <LanguageToggle />
+                  {/* Language Button */}
+                  <LanguageToggle />
                 </li>
                 <li>
                   {/* darkmode button */}

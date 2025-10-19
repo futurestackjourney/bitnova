@@ -7,7 +7,7 @@ import { useEffect } from "react";
 
 const containerVariants = {
   hidden: {},
-  visible: { opacity: 1, x: 0,
+  visible: {
     transition: {
       staggerChildren: 0.2,
     },
@@ -29,7 +29,7 @@ const Frequently = () => {
           initial={{ opacity: 0, x: -40 }}
           whileInView={{ opacity: 1, x: 0 }}
           transition={{ delay: 0.3, duration: 0.8 }}
-          viewport={{ once: true, amount: 0.5 }}
+          viewport={{ once: true, amount: 0.1 }}
           className="flex flex-col text-start w-full px-5 mb-20"
         >
           <h2 className="text-xs text-green-400 tracking-widest font-medium title-font mb-1">
@@ -51,7 +51,7 @@ const Frequently = () => {
           variants={containerVariants}
           initial="hidden"
           whileInView="visible"
-          viewport={{ once: true, amount: 0.3 }}
+          viewport={{ once: true, amount: 0.1 }}
           className="flex flex-wrap"
         >
           {t("home.faq.questions", { returnObjects: true }).map(

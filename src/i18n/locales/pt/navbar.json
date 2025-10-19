@@ -1,0 +1,37 @@
+{
+  "navbar": {
+    "news": "Notícias",
+    "about": "Sobre",
+    "market": "Mercado",
+
+    "trading": {
+      "trade": "Negociar",
+      "spot": "Comércio à Vista",
+      "spotpara": "Compre e venda criptomoedas instantaneamente aos preços atuais de mercado.",
+      "features": "Comércio de Futuros",
+      "featurespara": "Negocie contratos com alavancagem e especule sobre movimentos de preços."
+    },
+
+    "more": {
+      "more": "Mais",
+      "testimonials": "Testemunhos",
+      "testimonialspara": "Ouça o que os nossos utilizadores dizem sobre negociar na nossa plataforma.",
+      "faqs": "Perguntas Frequentes",
+      "faqspara": "Encontre respostas rápidas para dúvidas comuns sobre negociações e contas.",
+      "support": "Ajuda e Suporte",
+      "supportpara": "Contacte a nossa equipa de suporte ou consulte o centro de ajuda.",
+      "program": "Programa de Indicação",
+      "programpara": "Convide amigos e ganhem recompensas de negociação juntos."
+    },
+
+    "depositbtn": "Depositar",
+    "loginbtn": "Iniciar Sessão",
+
+    "profile": {
+      "dashboard": "Painel de Controlo",
+      "Portfolio": "Portfólio",
+      "settings": "Configurações",
+      "logout": "Terminar Sessão"
+    }
+  }
+}

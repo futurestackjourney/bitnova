@@ -10,7 +10,7 @@ import Chart from "react-apexcharts";
  */
 const GraphCard = ({ title, series, options, height = 520, className = "" }) => {
   return (
-    <div className={`rounded-xl shadow-lg p-4 ${className}`}>
+    <div className={`rounded-xl shadow-lg sm:p-4 ${className}`}>
       <div className="flex items-center justify-between mb-3 border-b border-zinc-600 pb-2 ">
         <h3 className="text-3xl font-bold">{title}</h3>
       </div>

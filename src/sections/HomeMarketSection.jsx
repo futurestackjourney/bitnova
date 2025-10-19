@@ -168,7 +168,7 @@ export default function HomeMarketSection() {
           whileInView={{ opacity: 1, y: 0 }}
           transition={{ delay: 0.6, duration: 0.6 }}
           viewport={{ once: true, amount: 0.5 }}
-          className="flex-1 bg-card-light dark:bg-card rounded-xl p-4 shadow-md"
+          className="flex-1 bg-card-light dark:bg-card rounded-xl p-2 sm:p-4 shadow-md "
         >
           <h3 className="text-xl font-semibold text-zinc-700 dark:text-gray-300 mb-4">
             Live {selectedPair} Chart
