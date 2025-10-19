@@ -33,10 +33,10 @@ const Hero = () => {
 
   return (
     <section
-      className="py-8 px-6 h-screen bg-cover bg-center bg-no-repeat "
+      className="py-8 px-6 min-h-screen bg-cover bg-center bg-no-repeat "
       style={{ backgroundImage: "url('/images/bg1.png')" }}>
       {/* for blury effect for bg */}
-      <div className="absolute inset-0 bg-white/10 dark:bg-zinc-900/40 backdrop-blur-[5px] "></div>
+      <div className="absolute inset-0 bg-white/10 dark:bg-zinc-900/40 backdrop-blur-[5px] not-sm:h-screen"></div>
 
       <div className="mt-32 max-w-6xl mx-auto flex flex-col items-center text-center z-10 relative">
         <motion.h1
