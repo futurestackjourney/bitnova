@@ -15,7 +15,7 @@ const FEATURED_COINS = [
   "cardano",
   "polkadot",
   "tron",
-  "matic-network",
+  "polygon",
 ];
 
 function toBinancePair(symbol) {

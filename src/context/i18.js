@@ -1,24 +1,24 @@
 import i18n from "i18next";
 import { initReactI18next } from "react-i18next";
 
-// ✅ Import all language JSON files for HOME
+//  Import all language JSON files for HOME
 import enHome from "../i18n/locales/en/home.json";
 import arHome from "../i18n/locales/ar/home.json";
 import esHome from "../i18n/locales/es/home.json";
 import ptHome from "../i18n/locales/pt/home.json";
 import zhHome from "../i18n/locales/zh/home.json";
 
-// ✅ Import all language JSON files for ABOUT
+//  Import all language JSON files for ABOUT
 import enAbout from "../i18n/locales/en/about.json";
 import arAbout from "../i18n/locales/ar/about.json";
 import esAbout from "../i18n/locales/es/about.json";
 import ptAbout from "../i18n/locales/pt/about.json";
 
-// ✅ Check if user has a saved language preference
+//  Check if user has a saved language preference
 const savedLang = localStorage.getItem("language") || "en";
 
 i18n.use(initReactI18next).init({
-  debug: true,
+  debug: false,
   lng: savedLang, // Use saved language
   fallbackLng: "en",
   interpolation: { escapeValue: false },
