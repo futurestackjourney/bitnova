@@ -148,7 +148,7 @@ const Navbar = () => {
                       >
                         {t("navbar.trading.spot")}
                         <p className="text-sm text-gray-400  ">
-                         {t("navbar.trading.spotpara")}
+                          {t("navbar.trading.spotpara")}
                         </p>
                       </Link>
                       <Link
@@ -196,7 +196,7 @@ const Navbar = () => {
                         to="/faqs"
                         className="block px-4 py-2 hover:text-green-300"
                       >
-                       {t("navbar.more.faqs")}
+                        {t("navbar.more.faqs")}
                         <p className="text-sm text-gray-400 max-w-4xl">
                           {t("navbar.more.faqspara")}
                         </p>
@@ -216,7 +216,7 @@ const Navbar = () => {
                         to="/referral"
                         className="block px-4 py-2 hover:text-green-300"
                       >
-                       {t("navbar.more.program")}
+                        {t("navbar.more.program")}
                         <p className="text-sm text-gray-400 max-w-4xl">
                           {t("navbar.more.programpara")}
                         </p>
@@ -239,7 +239,7 @@ const Navbar = () => {
                   onClick={handleDepositClick}
                   className="px-3 py-1.5 rounded bg-green-500 text-black hover:bg-green-600"
                 >
-                 {t("navbar.depositbtn")}
+                  {t("navbar.depositbtn")}
                 </button>
                 {user ? (
                   <div className="relative group">
@@ -254,13 +254,13 @@ const Navbar = () => {
                         to="/dashboard"
                         className="block px-4 py-2 hover:text-green-300"
                       >
-                         {t("navbar.profile.dashboard")}
+                        {t("navbar.profile.dashboard")}
                       </Link>
                       <Link
                         to="/portfolio"
                         className="block px-4 py-2 hover:text-green-300"
                       >
-                       {t("navbar.profile.Portfolio")}
+                        {t("navbar.profile.Portfolio")}
                       </Link>
                       <Link
                         to="/create"
@@ -272,7 +272,7 @@ const Navbar = () => {
                         onClick={handleLogout}
                         className="w-full text-left px-4 py-2 hover:text-green-300"
                       >
-                       {t("navbar.profile.logout")}
+                        {t("navbar.profile.logout")}
                       </button>
                     </div>
                   </div>
@@ -297,74 +297,72 @@ const Navbar = () => {
             {menuOpen && (
               <ul className="mt-4 flex flex-col space-y-4 md:hidden h-screen">
                 <li>
-                  <Link to="/" onClick={closeMenu}>
-                    Home
-                  </Link>
-                </li>
-                <li>
                   <Link to="/news" onClick={closeMenu}>
-                    Latest news
+                    {t("navbar.news")}
                   </Link>
                 </li>
                 <li>
                   <Link to="/about" onClick={closeMenu}>
-                    About
+                    {t("navbar.about")}
                   </Link>
                 </li>
                 <li>
                   <Link to="/spot" onClick={closeMenu}>
-                    Spot
+                    {t("navbar.trading.spot")}
                   </Link>
                 </li>
                 <li>
                   <Link to="/futures" onClick={closeMenu}>
-                    Futures
+                    {t("navbar.trading.features")}
                   </Link>
                 </li>
                 <li>
                   <Link to="/markets" onClick={closeMenu}>
-                    Markets
+                    {t("navbar.market")}
                   </Link>
                 </li>
 
                 {/* Profile Dropdown in Mobile */}
-                <button
+                {/* <button
                   onClick={() => setMoreOpen(!moreOpen)}
                   className="flex items-center"
                 >
                   Profile <FaChevronDown size={12} className="ml-1" />
-                </button>
+                </button> */}
                 {user ? (
-                  moreOpen && (
-                    <>
-                      <li>
-                        <Link to="/dashboard" onClick={closeMenu}>
-                          Dashboard
-                        </Link>
-                      </li>
-                      <li>
-                        <Link to="/portfolio" onClick={closeMenu}>
-                          Portfolio
-                        </Link>
-                      </li>
-                      <li>
-                        <Link to="/create" onClick={closeMenu}>
-                          Create
-                        </Link>
-                      </li>
-                      <li>
-                        <button
-                          onClick={() => {
-                            handleLogout();
-                            closeMenu();
-                          }}
-                          className="bg-green-400 px-3 py-1 rounded text-black"
-                        >
-                          Logout
-                        </button>
-                      </li>
-                    </>
-                  )
+                  <>
+                    <li>
+                      <Link to="/dashboard" onClick={closeMenu}>
+                        {t("navbar.profile.dashboard")}
+                      </Link>
+                    </li>
+                    <li>
+                      <Link to="/portfolio" onClick={closeMenu}>
+                        {t("navbar.profile.Portfolio")}
+                      </Link>
+                    </li>
+                    <li>
+                      <Link to="/create" onClick={closeMenu}>
+                        {t("navbar.profile.settings")}
+                      </Link>
+                    </li>
+                    <li>
+                      <Link to="/deposit" onClick={closeMenu}>
+                        {t("navbar.depositbtn")}
+                      </Link>
+                    </li>
+                    <li>
+                      <button
+                        onClick={() => {
+                          handleLogout();
+                          closeMenu();
+                        }}
+                        className="bg-green-400 px-3 py-1 rounded text-black"
+                      >
+                        {t("navbar.profile.logout")}
+                      </button>
+                    </li>
+                  </>
                 ) : (
                   <li>
                     <Link
